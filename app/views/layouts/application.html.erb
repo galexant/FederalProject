@@ -1,14 +1,110 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Innovo</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+		<title>Innovo</title>
+		<link href='http://fonts.googleapis.com/css?family=Cuprum&subset=cyrillic' rel='stylesheet' type='text/css'>
+		<%= stylesheet_link_tag "home" %>
+		<%= stylesheet_link_tag "bootstrap" %>
+	</head>
+	<body>
 
-<%= yield %>
+		<div class="container">
 
-</body>
+			<div class="masthead" style="margin-top:20px; margin-bottom:20px;">
+
+				<ul class="nav nav-pills pull-right">
+
+					<li>
+						<a href="#">Войти</a>
+					</li>
+
+					<li>
+						<a href="#">Зарегистрироваться</a>
+					</li>
+				</ul>
+				<div class="brand"><img src="/assets/logo.png" style="width:5em;"><span class="bname">Навигатор инновационной деятельности</span>
+				</div>
+			</div>
+
+		</div>
+		<div class="banner">
+			<div style="background-image:url('/assets/spb.jpg');
+			background-position: center top;">
+				 <!-- <img src="/assets/spb.jpg"> -->
+			</div>
+		</div>
+
+		<nav>
+			<ul class="site-navigation">
+				<li>
+					<a href="#">О ПРОГРАММЕ</a>
+				</li>
+				<li>
+					<a href="#">ИННОВАЦИОННЫЕ</br> ПЛОЩАДКИ</a>
+				</li>
+				<li>
+					<a href="#">ИННОВАЦИОННЫЕ</br> ПРОДУКТЫ</a>
+				</li>
+				<li>
+					<a href="#">КАЛЕНДАРЬ</br> СОБЫТИЙ</a>
+				</li>
+				<li>
+					<a href="#">ИНТЕРАКТИВНАЯ</br> КАРТА</a>
+				</li>
+			</ul>
+		</nav>
+		</br>
+		<hr>
+		<div class="container">
+
+			</br>
+			</br>
+			<h2>Навигатор инновационной деятельности</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Nunc placerat diam quis nisl vestibulum dignissim.
+				In hac habitasse platea dictumst. Interdum et malesuada
+				fames ac ante ipsum primis in faucibus. Pellentesque
+				habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Etiam placerat nunc ut tellus
+				tristique, non posuere neque iaculis. Fusce aliquet dui
+				ut felis rhoncus, vitae molestie mauris auctor. Donec pellentesque
+				feugiat leo a adipiscing. Pellentesque quis tristique eros, sed rutrum mauris.
+			</p>
+
+			<p>
+				Nam fringilla quis enim in eleifend. Suspendisse
+				sed lectus mauris. Nam commodo, arcu et posuere placerat,
+				tellus tortor dignissim eros, sit amet eleifend urna lorem
+				sit amet nulla. Praesent sem nibh, vulputate nec congue eu,
+				dapibus vitae augue. Suspendisse cursus urna sit amet metus
+				porttitor, in pharetra quam feugiat. Etiam tempus euismod nulla eget pellentesque.
+			</p>
+			<p>
+				Nam fringilla quis enim in eleifend. Suspendisse
+				sed lectus mauris. Nam commodo, arcu et posuere placerat,
+				tellus tortor dignissim eros, sit amet eleifend urna lorem
+				sit amet nulla. Praesent sem nibh, vulputate nec congue eu,
+				dapibus vitae augue. Suspendisse cursus urna sit amet metus
+				porttitor, in pharetra quam feugiat. Etiam tempus euismod nulla eget pellentesque.
+			</p>
+			</br>
+			</br>
+			<h2>Еще один заголовок о важном</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Nunc placerat diam quis nisl vestibulum dignissim.
+				In hac habitasse platea dictumst. Interdum et malesuada
+				fames ac ante ipsum primis in faucibus. Pellentesque
+				habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Etiam placerat nunc ut tellus
+				tristique, non posuere neque iaculis. Fusce aliquet dui
+				ut felis rhoncus, vitae molestie mauris auctor. Donec pellentesque
+				feugiat leo a adipiscing. Pellentesque quis tristique eros, sed rutrum mauris.
+			</p>
+
+		</div>
+
+	</body>
+	<%= javascript_include_tag "jquery" %>
 </html>
